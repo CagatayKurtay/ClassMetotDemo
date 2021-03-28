@@ -26,5 +26,10 @@ namespace ClassMetotDemo
             Console.WriteLine(musteri.Adi + " isimli müşterinin kaydı silindi!");
         }
 
+        public void Guncelle(Musteri musteri)
+        {
+            Console.WriteLine(musteri.Adi + " isimli müşterinin kaydı güncellendi!");
+        }
+
     }
 }
